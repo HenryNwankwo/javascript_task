@@ -63,6 +63,9 @@ function divisibleChecker(parameter){
     return outputArray;
 }
 
-var myOutput = divisibleChecker(67);
-console.log("The Output Array is below: " );
-console.log(myOutput);
+var myOutput1 = divisibleChecker(100);
+var myOutput2 = divisibleChecker(67);
+console.log("The Output Array for 100 as an argument is below: " );
+console.log(myOutput1);
+console.log("The Output Array for 67 as an argument is below: ");
+console.log(myOutput2);
